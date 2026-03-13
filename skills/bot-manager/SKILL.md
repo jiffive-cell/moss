@@ -3,6 +3,10 @@ name: bot-manager
 description: Bot 团队管理中心。查看和管理所有 AI 漫剧运营 Bot 的工作状态、任务历史、配置信息，通过 QQbot 操作。
 metadata: {"clawdbot":{"emoji":"🎛️"}}
 triggers:
+  - 漫剧 bot
+  - 漫剧团队
+  - bot 团队
+  - 运营 bot
   - bot 状态
   - bot 管理
   - 查看 bot
@@ -10,6 +14,8 @@ triggers:
   - 工作状态
   - 任务历史
   - bot 列表
+  - 我的 bot
+  - bot 中心
 priority: 95
 ---
 
@@ -27,7 +33,10 @@ priority: 95
 
 | 命令 | 功能 | 示例 |
 |------|------|------|
-| `bot 列表` | 查看所有 Bot | `bot 列表` |
+| `漫剧 bot` | 查看所有漫剧 Bot | `漫剧 bot` |
+| `bot 团队` | 查看 Bot 团队列表 | `bot 团队` |
+| `我的 bot` | 查看我的 Bot | `我的 bot` |
+| `bot 中心` | 打开 Bot 管理中心 | `bot 中心` |
 | `bot 状态` | 查看整体状态 | `bot 状态` |
 | `运营状态` | 查看运营概览 | `运营状态` |
 
@@ -35,11 +44,12 @@ priority: 95
 
 | 命令 | 查看对象 | 示例 |
 |------|---------|------|
+| `漫剧 bot 搜集` | 搜集 Bot 状态 | `漫剧 bot 搜集` |
+| `漫剧 bot 文案` | 文案 Bot 状态 | `漫剧 bot 文案` |
+| `漫剧 bot 配图` | 配图 Bot 状态 | `漫剧 bot 配图` |
+| `漫剧 bot 发布` | 发布 Bot 状态 | `漫剧 bot 发布` |
 | `查看 搜集 Bot` | 搜集 Bot 状态 | `查看 搜集 Bot` |
 | `查看 文案 Bot` | 文案 Bot 状态 | `查看 文案 Bot` |
-| `查看 配图 Bot` | 配图 Bot 状态 | `查看 配图 Bot` |
-| `查看 发布 Bot` | 发布 Bot 状态 | `查看 发布 Bot` |
-| `查看 [名字]` | 查看指定 Bot | `查看 ai-manhua-search` |
 
 ### 管理命令
 
@@ -67,7 +77,7 @@ priority: 95
 
 ### 1. 查看所有 Bot 列表
 
-**用户**: `bot 列表`
+**用户**: `漫剧 bot` 或 `bot 团队`
 
 **Bot 回复**:
 ```
@@ -110,7 +120,7 @@ priority: 95
 
 ### 2. 查看单个 Bot 详情
 
-**用户**: `查看 搜集 Bot`
+**用户**: `漫剧 bot 搜集` 或 `查看 搜集 Bot`
 
 **Bot 回复**:
 ```

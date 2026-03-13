@@ -154,6 +154,11 @@ function showOverview() {
 switch (command) {
   case "list":
   case "列表":
+  case "团队":
+  case "漫剧 bot":
+  case "bot 团队":
+  case "我的 bot":
+  case "bot 中心":
     listBots();
     break;
   case "status":
@@ -163,12 +168,20 @@ switch (command) {
     break;
   case "查看":
   case "detail":
+  case "搜集":
+  case "文案":
+  case "配图":
+  case "发布":
+  case "总控":
     showBotDetail(botName);
     break;
   default:
     console.log(`🎛️ Bot 管理中心\n`);
     console.log(`可用命令：`);
-    console.log(`• bot 列表 - 查看所有 Bot`);
+    console.log(`• 漫剧 bot - 查看所有漫剧 Bot`);
+    console.log(`• bot 团队 - 查看 Bot 团队列表`);
+    console.log(`• 我的 bot - 查看我的 Bot`);
     console.log(`• bot 状态 - 查看整体状态`);
-    console.log(`• 查看 [Bot 名] - 查看单个 Bot`);
+    console.log(`• 漫剧 bot 搜集 - 查看搜集 Bot 详情`);
+    console.log(`• 漫剧 bot 文案 - 查看文案 Bot 详情`);
 }
