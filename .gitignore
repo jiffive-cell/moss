@@ -1,0 +1,23 @@
+# OpenClaw runtime
+.openclaw/
+
+# ClawHub cache
+.clawdhub/
+.clawhub/
+
+# Memory (可选，如果不想上传个人记忆)
+# memory/
+
+# Logs
+*.log
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
