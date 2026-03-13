@@ -1,0 +1,8 @@
+{
+  "name": "bot-manager",
+  "version": "1.0.0",
+  "description": "Bot 团队管理中心，查看和管理所有 Bot 的工作状态",
+  "author": "MOSS",
+  "license": "MIT",
+  "triggers": ["bot 状态", "bot 管理", "查看 bot", "管理 bot", "工作状态", "任务历史", "bot 列表"]
+}

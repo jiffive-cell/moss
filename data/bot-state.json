@@ -1,0 +1,116 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-03-13T17:57:00+08:00",
+  "bots": {
+    "ai-manhua-search": {
+      "name": "搜集 Bot",
+      "emoji": "🔍",
+      "status": "running",
+      "enabled": true,
+      "version": "1.0.0",
+      "stats": {
+        "tasksToday": 0,
+        "tasksTotal": 0,
+        "successCount": 0,
+        "failCount": 0,
+        "avgDuration": 0
+      },
+      "lastRun": null,
+      "config": {
+        "searxng": true,
+        "agent-browser": true,
+        "cache": true
+      },
+      "tasks": []
+    },
+    "xiaohongshu-writer": {
+      "name": "文案 Bot",
+      "emoji": "✍️",
+      "status": "running",
+      "enabled": true,
+      "version": "1.0.0",
+      "stats": {
+        "tasksToday": 0,
+        "tasksTotal": 0,
+        "successCount": 0,
+        "failCount": 0,
+        "avgDuration": 0
+      },
+      "lastRun": null,
+      "config": {
+        "templates": true,
+        "tag-library": true
+      },
+      "tasks": []
+    },
+    "ai-manhua-image": {
+      "name": "配图 Bot",
+      "emoji": "🎨",
+      "status": "pending",
+      "enabled": false,
+      "version": "1.0.0",
+      "stats": {
+        "tasksToday": 0,
+        "tasksTotal": 0,
+        "successCount": 0,
+        "failCount": 0,
+        "avgDuration": 0
+      },
+      "lastRun": null,
+      "config": {
+        "wanxiang-api": false,
+        "styles": true,
+        "sizes": true
+      },
+      "tasks": []
+    },
+    "xiaohongshu-publisher": {
+      "name": "发布 Bot",
+      "emoji": "📤",
+      "status": "pending",
+      "enabled": false,
+      "version": "1.0.0",
+      "stats": {
+        "tasksToday": 0,
+        "tasksTotal": 0,
+        "successCount": 0,
+        "failCount": 0,
+        "avgDuration": 0
+      },
+      "lastRun": null,
+      "config": {
+        "xiaohongshu-login": false,
+        "agent-browser": true
+      },
+      "tasks": []
+    },
+    "ai-manhua-operator": {
+      "name": "总控 Bot",
+      "emoji": "🎬",
+      "status": "running",
+      "enabled": true,
+      "version": "1.0.0",
+      "stats": {
+        "tasksToday": 0,
+        "tasksTotal": 0,
+        "successCount": 0,
+        "failCount": 0,
+        "avgDuration": 0
+      },
+      "lastRun": null,
+      "config": {
+        "integration": true,
+        "scheduler": true
+      },
+      "tasks": []
+    }
+  },
+  "overview": {
+    "totalBots": 5,
+    "runningBots": 3,
+    "pendingBots": 2,
+    "errorBots": 0,
+    "totalTasksToday": 0,
+    "successRate": 100
+  }
+}
