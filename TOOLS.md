@@ -37,4 +37,11 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ---
 
+## My Setup
+
+### Location
+
+- **默认城市：** 西安 (Xi'an, China)
+- **时区：** Asia/Shanghai
+
 Add whatever helps you do your job. This is your cheat sheet.

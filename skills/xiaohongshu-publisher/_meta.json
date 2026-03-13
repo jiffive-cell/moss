@@ -1,0 +1,8 @@
+{
+  "name": "xiaohongshu-publisher",
+  "version": "1.0.0",
+  "description": "小红书自动发布 Bot，通过 QQbot 操作",
+  "author": "MOSS",
+  "license": "MIT",
+  "triggers": ["发布", "发小红书", "自动发布", "定时发布", "上传"]
+}

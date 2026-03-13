@@ -1,0 +1,8 @@
+{
+  "name": "xiaohongshu-writer",
+  "version": "1.0.0",
+  "description": "小红书文案生成 Bot，通过 QQbot 操作",
+  "author": "MOSS",
+  "license": "MIT",
+  "triggers": ["写文案", "文案", "小红书文案", "标题", "爆款文案", "生成文案", "写标题"]
+}

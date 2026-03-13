@@ -1,0 +1,8 @@
+{
+  "name": "ai-manhua-search",
+  "version": "1.0.0",
+  "description": "AI 漫剧资讯搜集 Bot，通过 QQbot 操作",
+  "author": "MOSS",
+  "license": "MIT",
+  "triggers": ["ai 漫剧", "漫剧", "搜集", "搜索", "资讯", "行业动态", "爆款", "数据", "日报"]
+}

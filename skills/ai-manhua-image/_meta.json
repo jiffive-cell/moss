@@ -1,0 +1,8 @@
+{
+  "name": "ai-manhua-image",
+  "version": "1.0.0",
+  "description": "AI 漫剧配图生成 Bot，通过 QQbot 操作",
+  "author": "MOSS",
+  "license": "MIT",
+  "triggers": ["生成配图", "配图", "封面", "生图", "画图", "做图", "图片"]
+}
